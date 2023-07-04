@@ -1,0 +1,46 @@
+.cardProducto {
+    background-color: rgb(194, 208, 135);
+    border-radius: 10px;
+    width: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(113, 39, 182);
+    border-color: rgb(113, 39, 182);
+    border: solid 1.5px;
+}
+
+.cardProducto:hover {
+    border-color: rgb(113, 39, 182);
+    border: solid 2px;
+}
+
+.imgProducto {
+    width: 200px;
+    height: 200px;
+    object-fit: fit;
+}
+
+.link {
+    color: rgb(113, 39, 182);
+    text-decoration: none;
+}
+
+.boton {
+    color: rgb(194, 208, 135);
+    background-color: rgb(113, 39, 182);
+    border-radius: 1rem;
+    font-weight: bold;
+    border-color: rgb(187, 180, 190);
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.boton:hover {
+    background-color: rgb(194, 208, 135);
+    color: rgb(113, 39, 182);
+}
